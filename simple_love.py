@@ -1,0 +1,20 @@
+from turtle import *
+pensize(5)
+pencolor("red")
+fillcolor("pink")
+begin_fill()
+left(135)
+forward(100)
+right(180)
+circle(50,-180)
+left(90)
+circle(50,-180)
+right(180)
+forward(100)
+end_fill()
+
+penup()
+pencolor("black")
+goto(0,80)
+hideturtle
+write("Love You",align="center",font=("Arial",20,"bold"))
